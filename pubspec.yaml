@@ -22,7 +22,9 @@ dev_dependencies:
 flutter:
   assets:
     - assets/
+    - assets/bold/
+    - assets/broken/
+    - assets/bulk/
+    - assets/linear/
     - assets/outline/
-    - assets/solid/
-    - assets/mini/
-    - assets/micro/
+    - assets/twotone/
