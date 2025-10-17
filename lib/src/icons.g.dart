@@ -5,7 +5,7 @@
 /// https://heroicons.com
 library heroicons;
 
-enum HeroIcons {
+enum IconsaxIcons {
   /// Activity icon
   activity._('activity', defaultSemanticLabel: "Activity icon"),
 

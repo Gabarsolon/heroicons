@@ -63,7 +63,7 @@ Future<void> main([List<String> arguments = const []]) async {
   Future<void> processIcons(
     String size,
     String type, {
-    required HeroIconStyle toStyle,
+    required IconsaxIconStyle toStyle,
   }) async {
     print('Processing directory: ${toStyle.name}');
 
@@ -95,10 +95,10 @@ Future<void> main([List<String> arguments = const []]) async {
   }
 
   // Then, process each of the icon styles in turn.
-  await processIcons('24', 'outline', toStyle: HeroIconStyle.outline);
-  await processIcons('24', 'solid', toStyle: HeroIconStyle.solid);
-  await processIcons('20', 'solid', toStyle: HeroIconStyle.mini);
-  await processIcons('16', 'solid', toStyle: HeroIconStyle.micro);
+  await processIcons('24', 'outline', toStyle: IconsaxIconStyle.outline);
+  await processIcons('24', 'solid', toStyle: IconsaxIconStyle.solid);
+  await processIcons('20', 'solid', toStyle: IconsaxIconStyle.mini);
+  await processIcons('16', 'solid', toStyle: IconsaxIconStyle.micro);
 
   // Finally, clear up.
   await cacheDir.delete(recursive: true);

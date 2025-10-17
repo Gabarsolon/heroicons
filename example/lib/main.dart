@@ -22,7 +22,7 @@ class ExampleApp extends StatelessWidget {
       home: const HeroIconTheme(
         // .outline is the default style anyhow, but this is how you can change
         // the default style of all HeroIcons in your app.
-        style: HeroIconStyle.outline,
+        style: IconsaxIconStyle.outline,
         child: HomeScreen(),
       ),
     );
@@ -53,20 +53,20 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              HeroIcon(HeroIcons.arrowLeft),
-              HeroIcon(HeroIcons.arrowRight),
-              HeroIcon(HeroIcons.calendar),
-              HeroIcon(HeroIcons.arrowLeft, style: HeroIconStyle.solid),
-              HeroIcon(HeroIcons.arrowRight, style: HeroIconStyle.solid),
-              HeroIcon(HeroIcons.calendar, style: HeroIconStyle.solid),
+              IconsaxIcon(HeroIcons.arrowLeft),
+              IconsaxIcon(HeroIcons.arrowRight),
+              IconsaxIcon(HeroIcons.calendar),
+              IconsaxIcon(HeroIcons.arrowLeft, style: IconsaxIconStyle.solid),
+              IconsaxIcon(HeroIcons.arrowRight, style: IconsaxIconStyle.solid),
+              IconsaxIcon(HeroIcons.calendar, style: IconsaxIconStyle.solid),
               IconTheme(
                 data: IconThemeData(
                   size: 40,
                   color: Colors.blue,
                 ),
-                child: HeroIcon(
+                child: IconsaxIcon(
                   HeroIcons.calendar,
-                  style: HeroIconStyle.outline,
+                  style: IconsaxIconStyle.outline,
                 ),
               ),
               IconTheme(
@@ -74,14 +74,14 @@ class HomeScreen extends StatelessWidget {
                   size: 40,
                   color: Colors.red,
                 ),
-                child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.solid),
+                child: IconsaxIcon(HeroIcons.calendar, style: IconsaxIconStyle.solid),
               ),
               IconTheme(
                 data: IconThemeData(
                   size: 40,
                   color: Colors.blue,
                 ),
-                child: HeroIcon(HeroIcons.calendar, style: HeroIconStyle.mini),
+                child: IconsaxIcon(HeroIcons.calendar, style: IconsaxIconStyle.mini),
               ),
               OutlinedButton(
                 style: primaryButtonStyle,
@@ -91,10 +91,10 @@ class HomeScreen extends StatelessWidget {
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    HeroIcon(
+                    IconsaxIcon(
                       HeroIcons.plus,
                       size: 20,
-                      style: HeroIconStyle.mini,
+                      style: IconsaxIconStyle.mini,
                     ),
                     SizedBox(
                       width: 6,

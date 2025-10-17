@@ -22,13 +22,13 @@ import '/src/styles.dart';
 /// ),
 /// ```
 ///
-/// If a [HeroIconTheme] exists as an ancestor of a [HeroIcon], the properties
+/// If a [HeroIconTheme] exists as an ancestor of a [IconsaxIcon], the properties
 /// on the theme will be used as defaults - if they are not specified on the
-/// [HeroIcon].
+/// [IconsaxIcon].
 class HeroIconTheme extends InheritedWidget {
-  final HeroIconStyle style;
+  final IconsaxIconStyle style;
 
-  /// Set to true to allow each [HeroIcon] to use the `defaultSemanticLabel`
+  /// Set to true to allow each [IconsaxIcon] to use the `defaultSemanticLabel`
   /// for an icon if a `semanticLabel` is not set.
   final bool useDefaultSemanticLabel;
 
@@ -49,15 +49,15 @@ class HeroIconTheme extends InheritedWidget {
   /// Attempts to get the [style] from an ancestor [HeroIconTheme] widget.
   /// If this is found, the style is returned - otherwise null is returned and
   /// a fallback may be determined.
-  static HeroIconStyle? maybeStyleOf(BuildContext context) {
+  static IconsaxIconStyle? maybeStyleOf(BuildContext context) {
     return context.dependOnInheritedWidgetOfExactType<HeroIconTheme>()?.style;
   }
 
   /// Assumes that there is an ancestor [HeroIconTheme] theme and gets the
   /// [style] property from it. If there is, in fact, no ancestor, an exception
   /// is thrown.
-  static HeroIconStyle styleOf(BuildContext context) {
-    final HeroIconStyle? result = maybeStyleOf(context);
+  static IconsaxIconStyle styleOf(BuildContext context) {
+    final IconsaxIconStyle? result = maybeStyleOf(context);
     assert(result != null, 'There is no HeroIconStyle in context.');
     return result!;
   }
@@ -67,9 +67,9 @@ class HeroIconTheme extends InheritedWidget {
       style != oldWidget.style;
 }
 
-/// Similarly to Material Icons, use [HeroIcon] Widget to display HeroIcon.
+/// Similarly to Material Icons, use [IconsaxIcon] Widget to display HeroIcon.
 ///
-/// The default [style] is [HeroIconStyle.outline], you can change this with
+/// The default [style] is [IconsaxIconStyle.outline], you can change this with
 /// a [HeroIconTheme].
 ///
 /// Other defaults such as [color] and [size] are extracted from the icon
@@ -78,8 +78,8 @@ class HeroIconTheme extends InheritedWidget {
 /// ```dart
 /// HeroIcon(HeroIcons.arrowLeft)
 /// ```
-class HeroIcon extends StatelessWidget {
-  const HeroIcon(
+class IconsaxIcon extends StatelessWidget {
+  const IconsaxIcon(
     this.icon, {
     super.key,
     this.color,
@@ -92,11 +92,11 @@ class HeroIcon extends StatelessWidget {
   final double? size;
 
   /// The icon to be displayed. One of [HeroIcons].
-  final HeroIcons icon;
+  final IconsaxIcon icon;
 
-  /// The preferred icon style. See [HeroIconStyle]. If not specified, defaults
+  /// The preferred icon style. See [IconsaxIconStyle]. If not specified, defaults
   /// to 'outline'.
-  final HeroIconStyle? style;
+  final IconsaxIconStyle? style;
 
   /// The semantic label for the icon.
   ///
@@ -116,7 +116,7 @@ class HeroIcon extends StatelessWidget {
     // a HeroIconTheme to use. Finally, if none of these are available, resort
     // to 'outline' as a default.
     final styleName =
-        (style ?? HeroIconTheme.maybeStyleOf(context) ?? HeroIconStyle.outline)
+        (style ?? HeroIconTheme.maybeStyleOf(context) ?? IconsaxIconStyle.outline)
             .name;
 
     // Locate the icon asset.
