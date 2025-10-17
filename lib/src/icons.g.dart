@@ -5,7 +5,7 @@
 /// https://heroicons.com
 library heroicons;
 
-enum IconsaxIcons {
+enum HeroIcons {
   /// Activity icon
   activity._('activity', defaultSemanticLabel: "Activity icon"),
 
@@ -87,8 +87,110 @@ enum IconsaxIcons {
   /// Archive icon
   archive._('archive', defaultSemanticLabel: "Archive icon"),
 
+  /// Arrange circle 2 icon
+  arrangeCircle2._(
+    'arrange-circle-2',
+    defaultSemanticLabel: "Arrange circle 2 icon",
+  ),
+
+  /// Arrange circle icon
+  arrangeCircle._(
+    'arrange-circle',
+    defaultSemanticLabel: "Arrange circle icon",
+  ),
+
+  /// Arrange square 2 icon
+  arrangeSquare2._(
+    'arrange-square-2',
+    defaultSemanticLabel: "Arrange square 2 icon",
+  ),
+
+  /// Arrange square icon
+  arrangeSquare._(
+    'arrange-square',
+    defaultSemanticLabel: "Arrange square icon",
+  ),
+
+  /// Arrow 2 icon
+  arrow2._('arrow-2', defaultSemanticLabel: "Arrow 2 icon"),
+
+  /// Arrow 3 icon
+  arrow3._('arrow-3', defaultSemanticLabel: "Arrow 3 icon"),
+
+  /// Arrow bottom icon
+  arrowBottom._('arrow-bottom', defaultSemanticLabel: "Arrow bottom icon"),
+
+  /// Arrow circle down icon
+  arrowCircleDown._(
+    'arrow-circle-down',
+    defaultSemanticLabel: "Arrow circle down icon",
+  ),
+
+  /// Arrow circle left icon
+  arrowCircleLeft._(
+    'arrow-circle-left',
+    defaultSemanticLabel: "Arrow circle left icon",
+  ),
+
+  /// Arrow circle right icon
+  arrowCircleRight._(
+    'arrow-circle-right',
+    defaultSemanticLabel: "Arrow circle right icon",
+  ),
+
+  /// Arrow circle up icon
+  arrowCircleUp._(
+    'arrow-circle-up',
+    defaultSemanticLabel: "Arrow circle up icon",
+  ),
+
+  /// Arrow down icon
+  arrowDown._('arrow-down', defaultSemanticLabel: "Arrow down icon"),
+
+  /// Arrow left icon
+  arrowLeft._('arrow-left', defaultSemanticLabel: "Arrow left icon"),
+
+  /// Arrow right icon
+  arrowRight._('arrow-right', defaultSemanticLabel: "Arrow right icon"),
+
+  /// Arrow square down icon
+  arrowSquareDown._(
+    'arrow-square-down',
+    defaultSemanticLabel: "Arrow square down icon",
+  ),
+
+  /// Arrow square left icon
+  arrowSquareLeft._(
+    'arrow-square-left',
+    defaultSemanticLabel: "Arrow square left icon",
+  ),
+
+  /// Arrow square right icon
+  arrowSquareRight._(
+    'arrow-square-right',
+    defaultSemanticLabel: "Arrow square right icon",
+  ),
+
+  /// Arrow square up icon
+  arrowSquareUp._(
+    'arrow-square-up',
+    defaultSemanticLabel: "Arrow square up icon",
+  ),
+
   /// Arrow square icon
   arrowSquare._('arrow-square', defaultSemanticLabel: "Arrow square icon"),
+
+  /// Arrow swap horizontal icon
+  arrowSwapHorizontal._(
+    'arrow-swap-horizontal',
+    defaultSemanticLabel: "Arrow swap horizontal icon",
+  ),
+
+  /// Arrow swap icon
+  arrowSwap._('arrow-swap', defaultSemanticLabel: "Arrow swap icon"),
+
+  /// Arrow up icon
+  arrowUp._('arrow-up', defaultSemanticLabel: "Arrow up icon"),
 
   /// Arrow icon
   arrow._('arrow', defaultSemanticLabel: "Arrow icon"),
@@ -110,6 +212,9 @@ enum IconsaxIcons {
 
   /// Award icon
   award._('award', defaultSemanticLabel: "Award icon"),
+
+  /// Back square icon
+  backSquare._('back-square', defaultSemanticLabel: "Back square icon"),
 
   /// Backward 10 seconds icon
   backward10Seconds._(
@@ -633,6 +738,9 @@ enum IconsaxIcons {
   /// Convert card icon
   convertCard._('convert-card', defaultSemanticLabel: "Convert card icon"),
 
+  /// Convert icon
+  convert._('convert', defaultSemanticLabel: "Convert icon"),
+
   /// Convertshape 2 icon
   convertshape2._(
     'convertshape-2',
@@ -942,6 +1050,9 @@ enum IconsaxIcons {
   /// Eraser icon
   eraser._('eraser', defaultSemanticLabel: "Eraser icon"),
 
+  /// Export icon
+  export._('export', defaultSemanticLabel: "Export icon"),
+
   /// External drive icon
   externalDrive._(
     'external-drive',
@@ -1073,6 +1184,12 @@ enum IconsaxIcons {
 
   /// Forward item icon
   forwardItem._('forward-item', defaultSemanticLabel: "Forward item icon"),
+
+  /// Forward square icon
+  forwardSquare._(
+    'forward-square',
+    defaultSemanticLabel: "Forward square icon",
+  ),
 
   /// Forward icon
   forward._('forward', defaultSemanticLabel: "Forward icon"),
@@ -1305,6 +1422,9 @@ enum IconsaxIcons {
   /// Image icon
   image._('image', defaultSemanticLabel: "Image icon"),
 
+  /// Import icon
+  import._('import', defaultSemanticLabel: "Import icon"),
+
   /// Info circle icon
   infoCircle._('info-circle', defaultSemanticLabel: "Info circle icon"),
 
@@ -1424,6 +1544,12 @@ enum IconsaxIcons {
 
   /// Lock icon
   lock._('lock', defaultSemanticLabel: "Lock icon"),
+
+  /// Login icon
+  login._('login', defaultSemanticLabel: "Login icon"),
+
+  /// Logout icon
+  logout._('logout', defaultSemanticLabel: "Logout icon"),
 
   /// Lovely icon
   lovely._('lovely', defaultSemanticLabel: "Lovely icon"),
@@ -2016,6 +2142,21 @@ enum IconsaxIcons {
   /// Receipt icon
   receipt._('receipt', defaultSemanticLabel: "Receipt icon"),
 
+  /// Receive square 2 icon
+  receiveSquare2._(
+    'receive-square-2',
+    defaultSemanticLabel: "Receive square 2 icon",
+  ),
+
+  /// Receive square icon
+  receiveSquare._(
+    'receive-square',
+    defaultSemanticLabel: "Receive square icon",
+  ),
+
+  /// Received icon
+  received._('received', defaultSemanticLabel: "Received icon"),
+
   /// Record circle icon
   recordCircle._('record-circle', defaultSemanticLabel: "Record circle icon"),
 
@@ -2027,6 +2168,45 @@ enum IconsaxIcons {
     'recovery-convert',
     defaultSemanticLabel: "Recovery convert icon",
   ),
+
+  /// Redo icon
+  redo._('redo', defaultSemanticLabel: "Redo icon"),
+
+  /// Refresh 2 icon
+  refresh2._('refresh-2', defaultSemanticLabel: "Refresh 2 icon"),
+
+  /// Refresh circle icon
+  refreshCircle._(
+    'refresh-circle',
+    defaultSemanticLabel: "Refresh circle icon",
+  ),
+
+  /// Refresh left square icon
+  refreshLeftSquare._(
+    'refresh-left-square',
+    defaultSemanticLabel: "Refresh left square icon",
+  ),
+
+  /// Refresh right square icon
+  refreshRightSquare._(
+    'refresh-right-square',
+    defaultSemanticLabel: "Refresh right square icon",
+  ),
+
+  /// Refresh square 2 icon
+  refreshSquare2._(
+    'refresh-square-2',
+    defaultSemanticLabel: "Refresh square 2 icon",
+  ),
+
+  /// Refresh icon
+  refresh._('refresh', defaultSemanticLabel: "Refresh icon"),
+
+  /// Repeat circle icon
+  repeatCircle._('repeat-circle', defaultSemanticLabel: "Repeat circle icon"),
+
+  /// Repeat icon
+  repeat._('repeat', defaultSemanticLabel: "Repeat icon"),
 
   /// Repeate music icon
   repeateMusic._('repeate-music', defaultSemanticLabel: "Repeate music icon"),
@@ -2144,6 +2324,12 @@ enum IconsaxIcons {
 
   /// Send 2 icon
   send2._('send-2', defaultSemanticLabel: "Send 2 icon"),
+
+  /// Send sqaure 2 icon
+  sendSqaure2._('send-sqaure-2', defaultSemanticLabel: "Send sqaure 2 icon"),
+
+  /// Send square icon
+  sendSquare._('send-square', defaultSemanticLabel: "Send square icon"),
 
   /// Send icon
   send._('send', defaultSemanticLabel: "Send icon"),
@@ -2544,6 +2730,9 @@ enum IconsaxIcons {
     defaultSemanticLabel: "Twentyfour support icon",
   ),
 
+  /// Undo icon
+  undo._('undo', defaultSemanticLabel: "Undo icon"),
+
   /// Unlimited icon
   unlimited._('unlimited', defaultSemanticLabel: "Unlimited icon"),
 
@@ -2709,7 +2898,7 @@ enum IconsaxIcons {
   /// Woman icon
   woman._('woman', defaultSemanticLabel: "Woman icon");
 
-  const IconsaxIcons._(this.name, {this.defaultSemanticLabel});
+  const HeroIcons._(this.name, {this.defaultSemanticLabel});
 
   /// The name of the icon file.
   final String name;
