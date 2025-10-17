@@ -116,7 +116,7 @@ class IconsaxIcon extends StatelessWidget {
     // a HeroIconTheme to use. Finally, if none of these are available, resort
     // to 'outline' as a default.
     final styleName =
-        (style ?? HeroIconTheme.maybeStyleOf(context) ?? IconsaxIconStyle.outline)
+        (style ?? HeroIconTheme.maybeStyleOf(context) ?? IconsaxIconStyle.bulk)
             .name;
 
     // Locate the icon asset.
