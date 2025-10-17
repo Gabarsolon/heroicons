@@ -5,7 +5,7 @@
 /// https://heroicons.com
 library heroicons;
 
-enum HeroIcons {
+enum IconsaxIcons {
   /// Activity icon
   activity._('activity', defaultSemanticLabel: "Activity icon"),
 
@@ -2898,7 +2898,7 @@ enum HeroIcons {
   /// Woman icon
   woman._('woman', defaultSemanticLabel: "Woman icon");
 
-  const HeroIcons._(this.name, {this.defaultSemanticLabel});
+  const IconsaxIcons._(this.name, {this.defaultSemanticLabel});
 
   /// The name of the icon file.
   final String name;
