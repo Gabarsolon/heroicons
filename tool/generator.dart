@@ -17,7 +17,7 @@ Future<void> main() async {
 
   final iconClass = Enum(
     (b) => b
-      ..name = 'HeroIcons'
+      ..name = 'IconsaxIcons'
       ..values.addAll([
         ...names.map((fileName) {
           return EnumValue((b) {
