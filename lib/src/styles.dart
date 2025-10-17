@@ -3,6 +3,7 @@
 enum HeroIconStyle {
   bold('bold'),
   broken('broken'),
+  bulk('bulk'),
   linear('linear'),
   outline('outline'),
   twotone('twotone');
