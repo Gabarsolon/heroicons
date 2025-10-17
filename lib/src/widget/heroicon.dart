@@ -92,7 +92,7 @@ class IconsaxIcon extends StatelessWidget {
   final double? size;
 
   /// The icon to be displayed. One of [HeroIcons].
-  final IconsaxIcon icon;
+  final IconsaxIcons icon;
 
   /// The preferred icon style. See [IconsaxIconStyle]. If not specified, defaults
   /// to 'outline'.
